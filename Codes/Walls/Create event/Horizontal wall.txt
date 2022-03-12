@@ -1,0 +1,9 @@
+{
+  x1 = x-16;
+  x2 = x+16;
+  y1 = y;
+  y2 = y;
+  z1 = 32;
+  z2 = 0;
+  tex = background_get_texture(Texture);
+}

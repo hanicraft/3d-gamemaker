@@ -1,0 +1,4 @@
+{
+  if (point_distance(x,y,global.camx,global.camy) > 240) exit;
+  d3d_draw_wall(x1,y1,z1,x2,y2,z2,tex,1,1);
+}

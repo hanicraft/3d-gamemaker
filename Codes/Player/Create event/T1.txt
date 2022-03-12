@@ -1,0 +1,6 @@
+{
+  global.camx = x;
+  global.camy = y;
+  global.camsin = sin(direction*pi/180);
+  global.camcos = cos(direction*pi/180);
+}

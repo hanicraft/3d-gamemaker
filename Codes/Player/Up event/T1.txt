@@ -1,0 +1,5 @@
+{
+  var maxspeed;
+  if keyboard_check(vk_shift) maxspeed = 3 else maxspeed = 1.5;
+  if (speed < maxspeed ) speed = min(maxspeed ,speed+0.4);
+}

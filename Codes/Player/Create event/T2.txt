@@ -1,0 +1,12 @@
+{
+  friction = 0.2;
+  
+  // initialize 3D
+  d3d_start();
+  d3d_set_hidden(true);
+  d3d_set_lighting(false);
+  d3d_set_culling(false);
+  d3d_set_fog(true,c_black,10,300);
+  // interpolate textures
+  texture_set_interpolation(true);
+}

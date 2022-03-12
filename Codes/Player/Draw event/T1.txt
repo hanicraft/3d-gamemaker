@@ -1,0 +1,12 @@
+{
+  // set the projection 
+  d3d_set_projection(x,y,10, x+cos(direction*pi/180),y-sin(direction*pi/180),10, 0,0,1);
+  // set color and transparency
+  draw_set_alpha(1);
+  draw_set_color(c_white);
+  // draw floor and ceiling 
+  d3d_draw_floor(0,0,0,room_width,room_height,0,
+                   background_get_texture(texture_floor),32,32);
+  d3d_draw_floor(0,0,32,room_width,room_height,32,
+                   background_get_texture(texture_ceiling),24,24);
+}
